@@ -46,23 +46,25 @@
 
     <div class="row p-2">
       <div class="col-12 m-2 mt-5 text-center">
-        <h2>Especialistas</h2>
+        <h2>Experts</h2>
         <div class="separador">
           ------------------------<i class="fas fa-star star-icon"></i
           >------------------------
         </div>
       </div>
       <div class="container mt-5">
-        <h2>Formulário de Especialista</h2>
         <form>
+          <div class="col-12 pl-0">
+            <h2>Expert Form</h2>
+          </div>
           <div class="form-row">
             <div class="form-group col-12">
-              <label for="patrocinador">Nome Especialista</label>
+              <label for="expert">Expert Name</label>
               <input
                 type="text"
                 class="form-control"
-                id="patrocinador"
-                placeholder="Nome do Patrocinador"
+                id="expert"
+                placeholder="Expert Name"
                 required
               />
             </div>
@@ -72,7 +74,7 @@
                 type="text"
                 class="form-control"
                 id="animal"
-                placeholder="Nome do Animal"
+                placeholder="Animal Name"
                 required
               />
             </div>
@@ -80,21 +82,19 @@
 
           <div class="form-row">
             <div class="form-group col-12">
-              <label for="valor">Anos de experiência</label>
+              <label for="valor">Years of Experience</label>
               <input
                 type="text"
                 class="form-control"
                 id="valor"
-                placeholder="Valor"
+                placeholder="Years"
                 required
               />
             </div>
           </div>
 
           <button type="submit" class="btn btn-success">
-            <a href="expert.html"
-              ><i class="fas fa-edit"></i>Editar Especialista</a
-            >
+            <a href="expert.html"><i class="fas fa-edit"></i>Edit Expert</a>
           </button>
         </form>
       </div>

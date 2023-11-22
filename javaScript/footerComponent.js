@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <footer class="footer text-center mt-auto">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="col-lg-4 mb-5 mb-lg-0 ml-0">
             <h4 class="text-uppercase mb-4">Criadores</h4>
             <p class="lead mb-0">
               <a href="mailto:ricardo.queiros@gmail.com" target="_blank">Ricardo Queirós</a><br>

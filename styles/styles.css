@@ -127,6 +127,13 @@ a:hover {
   .navbar-toggler:focus {
     box-shadow: none;
   }
+  #footerContainer {
+    max-height: 20vh;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
 
   #navbarNav {
     background-color: #343a40;
